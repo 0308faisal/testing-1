@@ -1,8 +1,7 @@
-name: Pipeline
+name: ci cd pipeline
 on:
   pull_request:
     branches: [ dev ]
-
 jobs:
   continuous-integration:
     runs-on: ubuntu-latest
