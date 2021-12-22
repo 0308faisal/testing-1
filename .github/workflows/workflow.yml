@@ -23,8 +23,8 @@ jobs:
         #  AWS_SECRET_ACCESS_KEY:${{ secrets.AWS_SECRET_ACCESS_KEY }}
         #  AWS-REGION:"us-east-1"
       # Step 5
-      - name: Build Application and Run unit Test
-        run: python main.py
+      #- name: Build Application and Run unit Test
+      #  run: python main.py
 
   continuous-deployment:
     runs-on: ubuntu-latest
